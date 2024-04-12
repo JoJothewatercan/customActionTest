@@ -8,5 +8,3 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: JoJothewatercan/customAction@main
-    env:
-      GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB}}
